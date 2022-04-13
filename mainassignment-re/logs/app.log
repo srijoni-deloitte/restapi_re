@@ -1,0 +1,27 @@
+2022-58-13 10:58:18.139 [main] INFO  extentController - verifyFetched start
+2022-58-13 10:58:18.689 [main] INFO  extentController - Getting users data from , https://gorest.co.in/public/v1/users
+2022-58-13 10:58:20.442 [main] DEBUG extentController - Fetched data
+2022-58-13 10:58:20.443 [main] INFO  extentController - verifyFetched success
+2022-58-13 10:58:20.445 [main] INFO  extentController - verifyGender start
+2022-58-13 10:58:20.449 [main] INFO  extentController - Verifying users gender data from , https://gorest.co.in/public/v1/users
+2022-58-13 10:58:21.100 [main] DEBUG extentController - Fetched gender data
+2022-58-13 10:58:21.100 [main] INFO  extentController - verifyGender success
+2022-58-13 10:58:21.101 [main] INFO  extentController - verifyUniqueUid start
+2022-58-13 10:58:21.103 [main] INFO  extentController - Verifying users with Unique ID data from , https://gorest.co.in/public/v1/users
+2022-58-13 10:58:21.796 [main] DEBUG extentController - Fetched UID data
+2022-58-13 10:58:21.797 [main] INFO  extentController - verifyUniqueUid success
+2022-58-13 10:58:21.798 [main] INFO  extentController - post_regster_user start
+2022-58-13 10:58:21.900 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+2022-58-13 10:58:21.902 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2022-58-13 10:58:21.903 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+2022-58-13 10:58:22.281 [main] DEBUG extentController - {"gender":"male","name":"M.V.Suhas","id":3228,"email":"MVSUHAS@DELOITTE.COM","status":"active"}
+2022-58-13 10:58:22.991 [main] INFO  extentController - User successfully registered
+2022-58-13 10:58:22.992 [main] DEBUG extentController - {"gender":"female","name":"Aditya Kumar","id":3229,"email":"ADITYAKUMAR72@DELOITTE.COM","status":"active"}
+2022-58-13 10:58:23.654 [main] INFO  extentController - User successfully registered
+2022-58-13 10:58:23.658 [main] DEBUG extentController - {"gender":"female","name":"Deepak Maharajan M","id":3230,"email":"DMAHARAJANM@DELOITTE.COM","status":"active"}
+2022-58-13 10:58:24.346 [main] INFO  extentController - User successfully registered
+2022-58-13 10:58:24.347 [main] INFO  extentController - post_regster_user success
+2022-58-13 10:58:24.348 [main] INFO  extentController - post_alreadyPresent start
+2022-58-13 10:58:24.353 [main] INFO  extentController - Posting already present mail-id , https://gorest.co.in/public/v1/users
+2022-58-13 10:58:25.007 [main] DEBUG extentController - Posting{"gender":"male","name":"Dhatri Mehrotra","id":3227,"email":"mehrotra_dhatri@baumbach-erdman.name","status":"active"}
+2022-58-13 10:58:25.540 [main] WARN  extentController - User already present with same email i.e. 
