@@ -4,7 +4,7 @@
     <listeners>
         <listener class-name="Listener"/>
     </listeners>
-    <test verbose="2" preserve-order="true" name="C:/Users/tbhattacharjee/Desktop/HU_API_TESTING/MainAssignment">
+    <test verbose="2" preserve-order="true" name="INSERT PATH">
         <classes>
             <class name="TestClass"/>
         </classes>
