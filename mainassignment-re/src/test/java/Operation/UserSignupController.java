@@ -42,10 +42,14 @@ public class UserSignupController {
         log.debug(user.getFullUserJson());
         test.info("User Registration test");
         test.debug(user.getFullUserJson().toString());
-
+    try{
         Response response = given().spec(requestSpecification).body(user.getFullUserJson().toString()).post().then().
                 spec(responseSpecification).extract().response();
-
+    }
+        catch (Exception e){
+        log.debug("Request Failed");
+        test.fail("Request Failed");
+    }
         log.info("User successfully registered");
         test.log(Status.PASS, "User successfully registered");
         return true;
